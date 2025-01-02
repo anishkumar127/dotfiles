@@ -80,3 +80,4 @@ set_keymap(
   "<cmd>lua require('package-info').change_version()<cr>",
   { silent = true, noremap = true, desc = "Change package version" }
 )
+-- vim.api.nvim_set_keymap('n', '<M-j>', '', { noremap = true, silent = true }) -- Disable Alt+j
